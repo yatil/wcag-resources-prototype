@@ -52,32 +52,55 @@
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div class="jumbotron">
 			<div class="container">
-				<h1><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0 Resources <small>Prototype</small></h1>
+				<h1>Images <small>Prototype</small></h1>
 				<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
 				<!--
 				<p><a class="btn btn-primary btn-lg" href="#">Learn more &raquo;</a></p>
 				-->
-				<form class="" role="form">
-					<div class="form-group">
-						<div class="input-group input-group-lg">
-							<label class="sr-only" for="exampleSearch">Search:</label>
-      				<div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
-							<input type="text" class="form-control" id="exampleSearch">
-							<span class="input-group-btn">
-      					<button type="submit" class="btn btn-success">Search</button>
-    					</span>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="panel panel-warning">
+							<div class="panel-heading">
+								<h2>Tutorial</h2>
+							</div>
+							<div class="panel-body">
+								<p>For <em>web designers and developers</em>, WAI has created a set of hands-on tutorials on how to implement images in an accessible way.</p>
+								<a href="#" class="btn btn-default pull-right">To the tutorial</a>
+							</div>
 						</div>
 					</div>
-				</form>
+					<div class="col-md-4">
+						<div class="panel panel-warning">
+							<div class="panel-heading">
+								<h2>Easy Checks</h2>
+							</div>
+							<div class="panel-body">
+								<p>If you want to do a preliminary check if your website’s images are accessible, you can find get step-by-step instructions in Easy Checks.</p>
+								<a href="#" class="btn btn-default pull-right">To Easy Checks</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="panel panel-warning">
+							<div class="panel-heading">
+								<h2>Why is this important?</h2>
+							</div>
+							<div class="panel-body">
+								<p>Making images accessible is important for many people, for example with <a href="http://www.w3.org/WAI/intro/people-use-web/diversity#visual">visual disabilities</a>.</p>
+								<a href="http://www.w3.org/WAI/intro/people-use-web/stories#accountant" class="btn btn-default pull-right">How a blind person uses the web.</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9">
-					<h2>Images</h2>
-					<div class="panel panel-default">
-					<div class="panel-heading normative" id="text-equiv-all"><h3 title="Success Criterion 1.1.1  -  Non-text Content" class="sc">Non-text Content<span class="screenreader">:</span></h3><p class="sctxt"><a href="http://www.w3.org/TR/WCAG20/#text-equiv-all">1.1.1</a> All <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#non-text-contentdef" class="termref">non-text content</a> that is presented to the user has a <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#text-altdef" class="termref">text alternative</a> that serves the equivalent purpose, except for the situations listed below.
+					<h2>Success Criteria &amp; Techniques</h2>
+					<div class="panel panel-info">
+					<div class="panel-heading normative" id="text-equiv-all"><h3 title="Success Criterion 1.1.1  -  Non-text Content" class="sc panel-title">Non-text Content<span class="screenreader">:</span></h3><p class="sctxt"><a href="http://www.w3.org/TR/WCAG20/#text-equiv-all">1.1.1</a> All <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#non-text-contentdef" class="termref">non-text content</a> that is presented to the user has a <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#text-altdef" class="termref">text alternative</a> that serves the equivalent purpose, except for the situations listed below.
                <em>(Level A)</em><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html" class="HTMlink">Understanding Success Criterion 1.1.1</a></p>
                <details class="panel panel-default"><summary class="panel-heading">Show situations</summary><div class="panel-body"><ul><li><p>
                     <strong class="sc-handle">Controls, Input: </strong> If non-text content is a control or accepts user input, then it has a <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#namedef" class="termref">name</a> that describes its purpose. (Refer to <em><a href="#ensure-compat">Guideline 4.1</a></em> for additional requirements for controls and content that accepts user input.)
@@ -353,6 +376,10 @@ summary:hover, summary:focus {
 
 summary h4 {
 	display:inline;
+}
+
+.panel-heading h2 {
+	margin:0;
 }
 </style>
 	</body>
